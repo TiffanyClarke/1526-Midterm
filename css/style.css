@@ -1,0 +1,107 @@
+/*Colors Used
+Background Color: #FFF782
+Icons, Backgroung Header, Hover color: #3B86EB
+Navigation Links and Button Background Color #bce8bc
+Active Button color  #E8864D
+Navigation Background color #35515d
+*/
+
+/*General Styling*/
+body {
+    background-color: #FFF782;
+}
+p {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.4rem;
+}
+
+h2 {
+    font-family: 'Peddana', serif;
+    font-size: 2rem;
+}
+
+i {
+    font-size: 1.75rem;
+    color: #3B86EB;
+}
+#active {
+    background-color: #E8864D;
+}
+button {
+    padding: 0.5rem;
+    font-family: 'Peddana', serif;
+    font-size: 1.25rem;
+    background-color: #bce8bc;
+    color: #3B86EB;
+}
+header {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 2rem; 
+    background-color: #3B86EB;
+    color: #bce8bc;
+    padding: 1rem;
+    margin: 3rem:
+    width: 100%;
+}
+footer {
+    clear: both;
+    
+}
+
+footer i {
+    padding-top: 1.5rem;
+    margin-left: 3rem;
+    font-size: 2.5rem;
+    color: #3B86EB;
+}
+/*Nav Styling*/
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: block;
+    padding: 5px; 
+}
+
+ nav a {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: #bce8bc;
+    background-color: #35515d;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+nav a:hover {
+    background-color: #3B86EB;
+}
+
+/*container and media quaries*/
+.container {
+    margin-left: 3rem;
+}
+
+/*media quary*/
+
+@media (min-width: 40rem) {
+    img {
+        float: left;
+        width: 25%;
+    }
+
+    p {
+        float: left;
+        width: 60%;
+        margin: 2rem;
+        font-size:1rem;
+        line-height: 1.6rem;
+    }
+    
+    nav li {
+        display: inline;
+    }
+}
+  
+    
